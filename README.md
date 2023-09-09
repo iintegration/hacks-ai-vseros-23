@@ -5,7 +5,7 @@
 <ul>
     <li><a href = "https://www.uisi.ru">Кирилл Брагин - Тимлид</a></li>
     <li><a href = "https://t.me/denisadminch">Денис Агапитов - Ml-engineer</a></li>
-    <li><a href = "https://t.me/YarKo9_9">Яроослав Колташев - Ml-engineer</a></li>
+    <li><a href = "https://t.me/YarKo9_9">Ярослав Колташев - Ml-engineer</a></li>
     <li><a href = "https://t.me/p_petrovskiy_02">Павел Петровский - Ml-engineer</a></li>
     <li><a href = "https://t.me/gabbhack">Никита Габбасов - MlOpls</a></li>
 </ul>
