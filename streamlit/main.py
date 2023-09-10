@@ -6,7 +6,7 @@ import mlflow
 import numpy as np
 import pandas as pd
 import shap
-from sklearn.metrics import auc, precision_recall_curve, roc_auc_score
+from sklearn.metrics import precision_recall_curve
 from streamlit_shap import st_shap
 
 import streamlit as st
