@@ -14,8 +14,8 @@ flavors:
     serialization_format: cloudpickle
     sklearn_version: 1.3.0
 mlflow_version: 2.6.0
-model_uuid: 74b11cb26f9845189bb71f7e98a246e4
-run_id: a683e457a3aa4dcbb45dd67c4158c3cf
+model_uuid: 8cdec837ba2944adbfb6957867f31666
+run_id: 257a3c06375443c6a5b0a8eab7fefed7
 signature:
   inputs: '[{"type": "string", "name": "col520"}, {"type": "string", "name": "col552"},
     {"type": "string", "name": "col607"}, {"type": "string", "name": "col599"}, {"type":
@@ -360,4 +360,4 @@ signature:
     "col2148"}]'
   outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
   params: null
-utc_time_created: '2023-09-10 07:39:18.515168'
+utc_time_created: '2023-09-10 07:47:20.408021'
