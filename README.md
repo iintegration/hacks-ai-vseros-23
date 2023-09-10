@@ -100,3 +100,19 @@ model = mlflow.sklearn.load_model('ML\\model')
 |2 | 1 | 0.221453 | 0.911698|
 |5 | 9 | 0.238714 | 0.911469|
 |5 | 10 | 0.184477 | 0.909631|
+
+
+## Streamlit
+
+### Установка зависимостей
+
+```cmd
+pip install -r ML/model/requirements.txt
+pip install streamlit matplotlib streamlit-shap shap
+```
+
+### Запуск
+
+```cmd
+streamlit run streamlit/main.py
+```
