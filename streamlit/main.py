@@ -20,7 +20,7 @@ os.environ[
 ] = "Gh85cb1UQ2vWO1AvRl9Dld94gKluLnBnvC-tCfSntBikx_A_dD4G842d7RejjDR6BTH0Ko2qaWidswbjm_at4Q"
 os.environ["MLFLOW_TRACKING_URI"] = "http://161.35.150.68:5000"
 
-run_id = "e862b46b5e11426eb835ced666235cd4"
+run_id = "8eb26cf416e64ebd8a8b745fa24fccdd"
 run = mlflow.get_run(run_id)
 
 
@@ -54,7 +54,8 @@ def calc_prediction_full():
         .drop(["report_date", "client_id"], axis=1)
     )
 
-    predictions = model.predict_proba(test_df.drop(["target"], axis=1))[:, 1]
+    test_df = test_df[loaded_columns() + ["target"]]
+    predictions = model.predict_proba(test_df)[:, 1]
     return test_df, predictions
 
 
@@ -139,7 +140,7 @@ model = loaded_model()
 uploaded_file = st.file_uploader("Выберите файл")
 
 if uploaded_file is not None:
-    test_df = pd.read_csv(uploaded_file)
+    test_df = pd.read_csv(uploaded_file, sep=";")
 
     pr, roc = run.data.metrics["pr_auc"], run.data.metrics["roc_auc"]
 
