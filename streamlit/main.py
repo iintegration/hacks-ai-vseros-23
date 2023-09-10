@@ -133,7 +133,7 @@ uploaded_file = st.file_uploader("Выберите файл")
 if uploaded_file is not None:
     test_df = pd.read_csv(uploaded_file, sep=";")
 
-    pr, roc = 0.21453993484902384, 0.9246884335676997
+    pr, roc = 0.227, 0.918
 
     st.header("Метрики:")
     st.text(f"roc_auc: {roc}")
