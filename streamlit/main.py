@@ -1,5 +1,5 @@
-import pathlib
 import json
+import pathlib
 
 import matplotlib.pyplot as plt
 import mlflow
@@ -14,13 +14,17 @@ import streamlit as st
 
 @st.cache_resource
 def loaded_columns():
-    raw_columns = (pathlib.Path(__file__).parent.parent.absolute() / "ML" / "columns.json").read_text()
+    raw_columns = (
+        pathlib.Path(__file__).parent.parent.absolute() / "ML" / "columns.json"
+    ).read_text()
     return json.loads(raw_columns)["columns"]
 
 
 @st.cache_resource
 def loaded_model():
-    return mlflow.sklearn.load_model(pathlib.Path(__file__).parent.parent.absolute() / "ML" / "model")
+    return mlflow.sklearn.load_model(
+        pathlib.Path(__file__).parent.parent.absolute() / "ML" / "model"
+    )
 
 
 @st.cache_resource
