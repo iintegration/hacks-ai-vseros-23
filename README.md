@@ -120,3 +120,12 @@ streamlit run streamlit/main.py
 ### Использование
 
 После запуска откроется веб страница. В нее нужно переместить нужный .csv файл. После обработки файла появится 4 вкладки
+
+![изображение](https://github.com/iintegration/hacks-ai-vseros-23/assets/43146729/ef75e436-8724-4f1d-b5df-cb979470fc41)
+
+![изображение](https://github.com/iintegration/hacks-ai-vseros-23/assets/43146729/8ce666ec-33c5-47db-8be7-f4c198542879)
+
+![изображение](https://github.com/iintegration/hacks-ai-vseros-23/assets/43146729/d05f70f9-fe4d-4025-915f-14ad6f882d43)
+
+![изображение](https://github.com/iintegration/hacks-ai-vseros-23/assets/43146729/06dcaabd-ad44-47e0-b09f-610388fe0806)
+
