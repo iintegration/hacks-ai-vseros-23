@@ -116,3 +116,7 @@ pip install streamlit matplotlib streamlit-shap shap
 ```cmd
 streamlit run streamlit/main.py
 ```
+
+### Использование
+
+После запуска откроется веб страница. В нее нужно переместить нужный .csv файл. После обработки файла появится 4 вкладки
